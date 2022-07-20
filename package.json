@@ -1,0 +1,16 @@
+{
+  "name": "gulp--subashringar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp default"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-nunjucks-render": "^2.2.3"
+  }
+}
