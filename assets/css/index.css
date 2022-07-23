@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 .navigation {
   background: transparent;
   padding: 1rem;
@@ -79,6 +80,10 @@
   width: 100%;
 }
 
+body {
+  font-family: "Ibarra Real Nova", serif;
+}
+
 .car__caption {
   margin-bottom: 2rem;
 }
@@ -121,6 +126,7 @@ button {
 
 /* 5 */
 .btn-5 {
+  font-family: "Ibarra Real Nova", serif;
   width: 130px;
   height: 40px;
   line-height: 42px;
@@ -176,22 +182,30 @@ button {
 .contact__form {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 1rem;
 }
 .contact input {
   display: block;
-  margin: 0.5rem 0;
+  margin: 0 0 1rem;
   font-weight: 700;
 }
 .contact textarea {
   display: block;
-  margin: 0.5rem 0;
-  font-weight: 700;
+  margin: 0 0 1rem;
 }
 .contact label {
+  font-family: "Ibarra Real Nova", serif;
   display: block;
-  font-weight: 600;
-  letter-spacing: 0.03em;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+}
+
+.btn__submit {
+  font-family: "Ibarra Real Nova", serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.075em;
 }
 
 .about-us {
@@ -220,9 +234,11 @@ button {
   }
 }
 .about-us__subtitle {
+  font-family: "Ibarra Real Nova", serif;
   text-align: justify;
   letter-spacing: 1px;
   font-size: 1.1rem;
+  font-style: italic;
 }
 @media (max-width: 575.98px) {
   .about-us__subtitle {
